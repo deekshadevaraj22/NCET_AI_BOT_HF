@@ -6,7 +6,7 @@ from transformers import pipeline
 def load_summarize():
   return pipeline("summerization",model="sshleifer/distilbart-cnn-12-6")
 
-summarizer = load_summarize()
+summarizer = load_summarizer()
 
 st.title(" AI Text Summarizer")
 st.write("Enter a long text below, and gat a concise summary!")
