@@ -8,8 +8,8 @@ def load_summarize():
 
 summarizer = load_summarizer()
 
-st.title(" AI Text Summarizer")
-st.write("Enter a long text below, and gat a concise summary!")
+st.title(" AI Text Summarize")
+st.write("Enter a long text below, and get a concise summary!")
 
 long_text = st.text_area("Enter text to summarize:",height=200)
 
